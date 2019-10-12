@@ -63,6 +63,21 @@
 							<span class="sidebar-mini-icon">
 								<i class="fa fa-ellipsis-h"></i>
 							</span>
+                    <h4 class="text-section">Aplicação</h4>
+                </li>
+                <li class="nav-item">
+                    <a href="<?= \yii\helpers\Url::to(['/app/usuario/index'])?>">
+                        <i class="fas fa-desktop"></i>
+                        <p>Usuário</p>
+                        <span class="badge badge-success">4</span>
+                    </a>
+                </li>
+
+
+                <li class="nav-section">
+							<span class="sidebar-mini-icon">
+								<i class="fa fa-ellipsis-h"></i>
+							</span>
                     <h4 class="text-section">Components</h4>
                 </li>
                 <li class="nav-item">

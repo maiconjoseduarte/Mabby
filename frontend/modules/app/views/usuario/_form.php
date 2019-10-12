@@ -14,7 +14,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'nome')->textInput(['maxlength' => true]) ?>
 
-    <div class="form-group">
+    <div class="card-action">
         <?= Html::submitButton('Save', ['class' => 'btn btn-success']) ?>
     </div>
 
